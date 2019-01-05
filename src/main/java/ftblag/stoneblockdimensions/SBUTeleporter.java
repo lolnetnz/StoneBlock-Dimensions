@@ -3,15 +3,16 @@ package ftblag.stoneblockdimensions;
 import net.minecraft.entity.Entity;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.Teleporter;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
-import net.minecraftforge.common.util.ITeleporter;
 
-public class SBUTeleporter implements ITeleporter {
+public class SBUTeleporter extends Teleporter {
     private WorldServer worldServer;
     private BlockPos pos;
-
+    
     public SBUTeleporter(WorldServer par1WorldServer, BlockPos pos) {
+        super(par1WorldServer);
         worldServer = par1WorldServer;
         this.pos = pos;
     }

@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = StoneBlockDimensions.MODID, name = StoneBlockDimensions.NAME, version = StoneBlockDimensions.version, guiFactory = "ftblag.stoneblockdimensions.client.ModGuiFactory")
+@Mod(modid = StoneBlockDimensions.MODID, name = StoneBlockDimensions.NAME, version = StoneBlockDimensions.version, guiFactory = "ftblag.stoneblockdimensions.client.ModGuiFactory", acceptableRemoteVersions = "*")
 public class StoneBlockDimensions {
 
     public static final String MODID = "stoneblockdimensions", NAME = "StoneBlock Dimensions", version = "@VERSION@";
