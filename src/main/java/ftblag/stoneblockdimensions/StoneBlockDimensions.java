@@ -19,7 +19,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = StoneBlockDimensions.MODID, name = StoneBlockDimensions.NAME, version = StoneBlockDimensions.version, guiFactory = "ftblag.stoneblockdimensions.client.ModGuiFactory", acceptableRemoteVersions = "*")
 public class StoneBlockDimensions {
 
-    public static final String MODID = "stoneblockdimensions", NAME = "StoneBlock Dimensions", version = "@VERSION@";
+    public static final String MODID = "stoneblockdimensions", NAME = "StoneBlock Dimensions", version = "1.0.3";
     public static DimensionType typeMW, typeEW;
     public static Logger log;
 
